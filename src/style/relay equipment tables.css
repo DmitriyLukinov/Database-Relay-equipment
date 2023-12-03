@@ -1,0 +1,39 @@
+#currentTable tbody{
+    background-color: rgba(132, 255, 138, 0.699);
+}
+#voltageTable tbody{
+    background-color: rgba(225, 241, 131, 0.699);
+}
+#measuringTable tbody{
+    background-color: rgba(254, 212, 255, 0.699);
+}
+#transTable tbody{
+    background-color: rgba(177, 205, 243, 0.699);
+}
+.equipmentTable th:first-child, .equipmentTable td:first-child{
+    width: 16%;
+    box-sizing: content-box;
+}
+.equipmentTable th:nth-child(n):not(:first-child),
+.equipmentTable td:nth-child(n):not(:first-child) {
+    width: 12%;
+    box-sizing: content-box;
+}
+#measuringTable th:nth-child(n):not(:first-child),
+#measuringTable td:nth-child(n):not(:first-child) {
+    width: 10.5%;
+    box-sizing: content-box;
+}
+.equipmentTable th:last-child, .equipmentTable td:last-child{
+    text-align: center;    
+}
+#currentLabel{
+    margin:0% 0.5% ;
+    padding-top: 7.1%;
+    align-items: flex-end;
+}
+
+svg{
+    margin-left: 5%;
+    cursor: pointer;
+}

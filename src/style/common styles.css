@@ -1,0 +1,37 @@
+.card, .tableClass, .equipmentTable{
+    margin:0% 0.5%;
+}
+.bg-body-tertiary{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+}
+.headerCol{
+    display: flex; 
+    align-items: center
+}
+.navButton{
+    margin-right: 0.5%;
+}
+.vertical-separator {
+    border-left: 1px solid rgb(0, 0, 0); 
+    height: 2em; 
+    margin-right: 3.5%;
+    margin-left: 3%;
+}
+h1 {
+	font-weight: bold;
+}
+.tableLabel{
+    margin:0% 0.5% ;
+    padding-top: 2%;
+    align-items: flex-end;
+}
+.addNew{
+    margin-bottom: 0.25%;
+    margin-right: 2%;
+}
+.tableClass, .equipmentTable{
+    width: 99%;
+}
+
