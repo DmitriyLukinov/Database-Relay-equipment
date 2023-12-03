@@ -12,7 +12,7 @@ const connection = mysql.createConnection({
     host: process.env.SERVER, 
     user: process.env.DATABASE_USER, 
     password: process.env.DATABASE_PASSWORD, 
-    database: 'all_equipment' 
+    database: process.env.DATABASE 
 });
 
 connection.connect((err) => {
