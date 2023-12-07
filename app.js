@@ -80,6 +80,4 @@ app.put('/form', jsonParser, async (req, res) => {
   filter.main(connection, req, res);
 });
 
-app.listen(3000, () => {
-  console.log(`Server started at 3000`);
-});
+app.listen(443);
